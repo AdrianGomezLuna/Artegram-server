@@ -10,7 +10,7 @@ import postRoutes from './routes/post';
 
 const server = new Server();
 
-//Body parser (función que se va a ejecutar siempre)
+//Body parser (función que se va a ejecutar siempre) --> No va bien, utilizaremos el express
 server.app.use( express.urlencoded({extended:true}));
 server.app.use( express.json());
 
