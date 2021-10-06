@@ -38,6 +38,5 @@ mongoose.connect('mongodb://localhost:27017/artegram', (err) => {
 
 //Levantar express
 server.start( () => {
-    console.log(`Servidor corriendo en puerto ${server.port}`);
-    
+    console.log(`Servidor corriendo en puerto ${server.port}`);    
 } );
